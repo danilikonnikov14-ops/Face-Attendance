@@ -1,4 +1,3 @@
-# EduFace Website Dockerfile
 FROM python:3.11-slim
 
 # Установка системных зависимостей
