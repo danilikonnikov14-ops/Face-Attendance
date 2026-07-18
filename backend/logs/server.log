@@ -1,0 +1,95 @@
+❌ Ошибка инициализации БД: connection to server at "localhost" (::1), port 5432 failed: FATAL:  database "postgres_test" does not exist
+
+❌ Ошибка инициализации БД: connection to server at "localhost" (::1), port 5432 failed: FATAL:  database "postgres_test" does not exist
+
+❌ Ошибка получения пользователя: connection to server at "localhost" (::1), port 5432 failed: FATAL:  database "postgres_test" does not exist
+
+⚠️ Неудачная попытка входа: wrong
+❌ Ошибка инициализации БД: connection to server at "localhost" (::1), port 5432 failed: FATAL:  database "postgres_test" does not exist
+
+❌ Ошибка инициализации БД: connection to server at "localhost" (::1), port 5432 failed: FATAL:  database "postgres_test" does not exist
+
+❌ Ошибка инициализации БД: connection to server at "localhost" (::1), port 5432 failed: FATAL:  database "postgres_test" does not exist
+
+❌ Ошибка инициализации БД: connection to server at "localhost" (::1), port 5432 failed: FATAL:  database "postgres_test" does not exist
+
+❌ Ошибка инициализации БД: connection to server at "localhost" (::1), port 5432 failed: FATAL:  database "postgres_test" does not exist
+
+❌ Ошибка инициализации БД: connection to server at "localhost" (::1), port 5432 failed: FATAL:  database "postgres_test" does not exist
+
+❌ Ошибка инициализации БД: connection to server at "localhost" (::1), port 5432 failed: FATAL:  database "postgres_test" does not exist
+
+❌ Ошибка инициализации БД: connection to server at "localhost" (::1), port 5432 failed: FATAL:  database "postgres_test" does not exist
+
+❌ Ошибка инициализации БД: connection to server at "localhost" (::1), port 5432 failed: FATAL:  database "postgres_test" does not exist
+
+2026-07-13 01:16:47,405 - __main__ - INFO - 🚀 Запуск EduFace-Server...
+2026-07-13 01:16:47,405 - __main__ - INFO - 📋 Версия: 1.0.0
+2026-07-13 01:16:47,406 - __main__ - INFO - 📋 Группы: 09.07.14п1, 09.07.14п2, 09.07.14р
+2026-07-13 01:16:47,406 - __main__ - INFO - 📊 Проверка базы данных...
+2026-07-13 01:16:47,622 - app.models.database - INFO - ✅ Таблицы успешно созданы/проверены
+2026-07-13 01:16:47,661 - __main__ - INFO - 🧠 Загрузка модели распознавания лиц...
+2026-07-13 01:16:47,662 - app.services.face_recognition - WARNING - ⚠️ Модель не найдена по пути: models/face_recognition_model.pth
+2026-07-13 01:16:47,662 - app.services.face_recognition - WARNING - ⚠️ Распознавание лиц будет недоступно
+2026-07-13 01:16:47,662 - __main__ - INFO - 📅 Обновление расписания...
+2026-07-13 01:16:47,662 - app.services.schedule_updater - INFO - 🔄 Первичное обновление расписания...
+2026-07-13 01:16:47,662 - app.services.schedule_parser - INFO - 🔄 Запуск обновления расписания для всех групп...
+2026-07-13 01:16:47,662 - app.services.schedule_parser - INFO - 🔄 Парсинг расписания для 09.07.14п1 с https://расписание.нхтк.рф/09.07.14п1.html
+2026-07-13 01:16:48,517 - app.services.schedule_parser - INFO - ✅ Расписание для 09.07.14п1: 0 дней, 0 пар
+2026-07-13 01:16:48,518 - app.services.schedule_parser - INFO - 🔄 Парсинг расписания для 09.07.14п2 с https://расписание.нхтк.рф/09.07.14п2.html
+2026-07-13 01:16:49,091 - app.services.schedule_parser - INFO - ✅ Расписание для 09.07.14п2: 0 дней, 0 пар
+2026-07-13 01:16:49,092 - app.services.schedule_parser - INFO - 🔄 Парсинг расписания для 09.07.14р с https://расписание.нхтк.рф/09.07.14р.html
+2026-07-13 01:16:49,660 - app.services.schedule_parser - INFO - ✅ Расписание для 09.07.14р: 0 дней, 0 пар
+2026-07-13 01:16:49,661 - app.services.schedule_parser - INFO - ✅ Обновление расписания завершено. Сохранено 0 пар
+2026-07-13 01:16:49,661 - app.services.schedule_updater - INFO - ✅ Первичное обновление завершено. Сохранено 0 пар
+2026-07-13 01:16:49,661 - __main__ - INFO - 🔄 Запуск фонового обновления расписания...
+2026-07-13 01:16:49,662 - app.services.schedule_updater - INFO - 🔄 Фоновый поток обновления расписания запущен (интервал: 3600с)
+2026-07-13 01:16:49,677 - __main__ - INFO - ✅ Сервер готов на http://0.0.0.0:5000
+2026-07-13 01:16:49,692 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.183:5000
+2026-07-13 01:16:49,692 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-07-13 01:17:01,243 - werkzeug - INFO - 127.0.0.1 - - [13/Jul/2026 01:17:01] "[33mGET / HTTP/1.1[0m" 404 -
+2026-07-13 01:17:01,324 - werkzeug - INFO - 127.0.0.1 - - [13/Jul/2026 01:17:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-07-13 01:17:01,327 - werkzeug - INFO - 127.0.0.1 - - [13/Jul/2026 01:17:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-07-13 01:17:09,707 - werkzeug - INFO - 127.0.0.1 - - [13/Jul/2026 01:17:09] "GET /health HTTP/1.1" 200 -
+2026-07-13 01:17:51,982 - werkzeug - INFO - 127.0.0.1 - - [13/Jul/2026 01:17:51] "GET /health HTTP/1.1" 200 -
+2026-07-13 01:17:55,062 - werkzeug - INFO - 127.0.0.1 - - [13/Jul/2026 01:17:55] "GET /health HTTP/1.1" 200 -
+2026-07-13 01:18:04,259 - __main__ - INFO - 🚀 Запуск EduFace-Server...
+2026-07-13 01:18:04,260 - __main__ - INFO - 📋 Версия: 1.0.0
+2026-07-13 01:18:04,260 - __main__ - INFO - 📋 Группы: 09.07.14п1, 09.07.14п2, 09.07.14р
+2026-07-13 01:18:04,260 - __main__ - INFO - 📊 Проверка базы данных...
+2026-07-13 01:18:04,298 - app.models.database - INFO - ✅ Таблицы успешно созданы/проверены
+2026-07-13 01:18:04,300 - __main__ - INFO - 🧠 Загрузка модели распознавания лиц...
+2026-07-13 01:18:04,301 - app.services.face_recognition - INFO - 🔄 Загрузка модели MTCNN...
+2026-07-13 01:18:04,372 - app.services.face_recognition - INFO - 🔄 Загрузка модели InceptionResnetV1...
+2026-07-13 01:18:05,051 - app.services.face_recognition - INFO - 🔄 Загрузка весов из: models/face_recognition_model.pth
+2026-07-13 01:18:05,075 - app.services.face_recognition - INFO - ✅ Загружено 23 лиц для распознавания
+2026-07-13 01:18:05,075 - __main__ - INFO - 📅 Обновление расписания...
+2026-07-13 01:18:05,075 - app.services.schedule_updater - INFO - 🔄 Первичное обновление расписания...
+2026-07-13 01:18:05,075 - app.services.schedule_parser - INFO - 🔄 Запуск обновления расписания для всех групп...
+2026-07-13 01:18:05,075 - app.services.schedule_parser - INFO - 🔄 Парсинг расписания для 09.07.14п1 с https://расписание.нхтк.рф/09.07.14п1.html
+2026-07-13 01:18:05,665 - app.services.schedule_parser - INFO - ✅ Расписание для 09.07.14п1: 0 дней, 0 пар
+2026-07-13 01:18:05,667 - app.services.schedule_parser - INFO - 🔄 Парсинг расписания для 09.07.14п2 с https://расписание.нхтк.рф/09.07.14п2.html
+2026-07-13 01:18:06,268 - app.services.schedule_parser - INFO - ✅ Расписание для 09.07.14п2: 0 дней, 0 пар
+2026-07-13 01:18:06,269 - app.services.schedule_parser - INFO - 🔄 Парсинг расписания для 09.07.14р с https://расписание.нхтк.рф/09.07.14р.html
+2026-07-13 01:18:06,849 - app.services.schedule_parser - INFO - ✅ Расписание для 09.07.14р: 0 дней, 0 пар
+2026-07-13 01:18:06,851 - app.services.schedule_parser - INFO - ✅ Обновление расписания завершено. Сохранено 0 пар
+2026-07-13 01:18:06,851 - app.services.schedule_updater - INFO - ✅ Первичное обновление завершено. Сохранено 0 пар
+2026-07-13 01:18:06,851 - __main__ - INFO - 🔄 Запуск фонового обновления расписания...
+2026-07-13 01:18:06,851 - app.services.schedule_updater - INFO - 🔄 Фоновый поток обновления расписания запущен (интервал: 3600с)
+2026-07-13 01:18:06,866 - __main__ - INFO - ✅ Сервер готов на http://0.0.0.0:5000
+2026-07-13 01:18:06,873 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.183:5000
+2026-07-13 01:18:06,873 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2026-07-13 01:18:07,139 - werkzeug - INFO - 127.0.0.1 - - [13/Jul/2026 01:18:07] "GET /health HTTP/1.1" 200 -
+2026-07-13 01:19:11,294 - werkzeug - INFO - 127.0.0.1 - - [13/Jul/2026 01:19:11] "[33mGET /version HTTP/1.1[0m" 404 -
+2026-07-13 01:19:31,730 - werkzeug - INFO - 127.0.0.1 - - [13/Jul/2026 01:19:31] "[33mGET /students HTTP/1.1[0m" 404 -
+2026-07-13 01:19:45,345 - werkzeug - INFO - 127.0.0.1 - - [13/Jul/2026 01:19:45] "[33mGET /students HTTP/1.1[0m" 404 -
+2026-07-13 01:20:06,546 - werkzeug - INFO - 127.0.0.1 - - [13/Jul/2026 01:20:06] "[31m[1mGET /students/by-group/<09.07.14п1> HTTP/1.1[0m" 405 -
+2026-07-13 01:20:12,416 - werkzeug - INFO - 127.0.0.1 - - [13/Jul/2026 01:20:12] "[31m[1mGET /students/by-group/<09.07.14p1> HTTP/1.1[0m" 405 -
+2026-07-13 01:20:27,899 - werkzeug - INFO - 127.0.0.1 - - [13/Jul/2026 01:20:27] "[33mGET /faces HTTP/1.1[0m" 404 -
+2026-07-13 01:21:36,032 - werkzeug - INFO - 127.0.0.1 - - [13/Jul/2026 01:21:36] "[33mGET /students HTTP/1.1[0m" 404 -

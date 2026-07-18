@@ -1,0 +1,28 @@
+# EduFace Website Dockerfile
+FROM python:3.11-slim
+
+# Установка системных зависимостей
+RUN apt-get update && apt-get install -y \
+    gcc \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+# Создание рабочей директории
+WORKDIR /app
+
+# Копирование зависимостей
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Копирование всего кода
+COPY . .
+
+# Переменные окружения
+ENV PYTHONUNBUFFERED=1
+ENV FLASK_APP=app.py
+
+# Открываем порт
+EXPOSE 5001
+
+# Запуск
+CMD ["python", "app.py"]
